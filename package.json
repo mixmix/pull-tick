@@ -1,0 +1,25 @@
+{
+  "name": "pull-tick",
+  "version": "1.0.0",
+  "description": "a pull-stream source that generates an infinite number of ticks",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mixmix/pull-tick"
+  },
+  "keywords": [
+    "pull-stream",
+    "source",
+    "setTimeout",
+    "tick"
+  ],
+  "author": "mixmix",
+  "license": "MIT",
+  "devDependencies": {
+    "pull-stream": "^3.4.5",
+    "tape": "^4.6.2"
+  }
+}
